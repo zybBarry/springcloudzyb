@@ -17,8 +17,6 @@
         <module>person</module>
         <module>some</module>
         <module>monitor</module>
-        <module>ui</module>
-        <module>monitor</module>
     </modules>
 
     <parent>
