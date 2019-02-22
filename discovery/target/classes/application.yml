@@ -1,0 +1,10 @@
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost   #设置当前实例的主机名称
+    #appname: discoveryapp # appname  服务名
+  client:
+    register-with-eureka: false  #启动服务注册 Eureka Server不需要再server上注册
+    fetch-registry: false   #检索服务

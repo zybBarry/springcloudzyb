@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/config #配置其他应用所需要的配置文件的位置位于类路径下的congfig目录下
+server:
+  port: 8888
