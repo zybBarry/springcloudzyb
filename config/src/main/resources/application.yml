@@ -1,8 +1,18 @@
+#spring: #本地读取配置文件的方式
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          search-locations: classpath:/config #配置其他应用所需要的配置文件的位置位于类路径下的congfig目录下
+
 spring:
   cloud:
     config:
       server:
-        native:
-          search-locations: classpath:/config #配置其他应用所需要的配置文件的位置位于类路径下的congfig目录下
+        git:
+          uri: https://gitee.com/zhangyubao/SpringCloudConfig
+          username: 13589085255@163.com
+          password: zyb150159
+          search-paths: config
 server:
   port: 8888

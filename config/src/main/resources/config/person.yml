@@ -1,3 +1,5 @@
 spring:
   jpa:
-    database: HSQL 
+    database: HSQL
+my:
+  message: Message from Development from config
